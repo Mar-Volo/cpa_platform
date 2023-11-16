@@ -51,7 +51,7 @@ export const Header = () => {
       <OptionsBox>
         <Select className="lang-select" ref={langSelectRef}>
           <a
-            href="#"
+            href="#languages"
             role="button"
             className="drop_down"
             onClick={optSelectClick}
@@ -60,14 +60,14 @@ export const Header = () => {
             <FaAngleDown className="down_icon" size={15} />
           </a>
           <OptBox className={`lang_opt ${isLangOptVisible === true ? "is-visible" : ""}`}>
-            <Opt href="#">Українська</Opt>
-            <Opt href="#">Англійська</Opt>
-            <Opt href="#">Російська</Opt>
+            <Opt href="#ukrainian">Українська</Opt>
+            <Opt href="#english">Англійська</Opt>
+            <Opt href="#russian">Російська</Opt>
           </OptBox>
         </Select>
-        <LogIn href="#">Вхід</LogIn>
+        <LogIn href="#login">Вхід</LogIn>
         <Select className="register-select" ref={registerSelectRef}>
-          <Register href="#" role="button" onClick={optSelectClick}>
+          <Register href="#register" role="button" onClick={optSelectClick}>
             Реєстрація
           </Register>
           <OptBox
@@ -75,13 +75,13 @@ export const Header = () => {
               isRegisterOptVisible ? "is-visible" : ""
             }`}
           >
-            <Opt className="register_opt" href="#">
+            <Opt className="register_opt" href="#blogers">
               Я блогер
             </Opt>
-            <Opt className="register_opt" href="#">
+            <Opt className="register_opt" href="#marketing">
               Я рекламодавець
             </Opt>
-            <Opt className="register_opt" href="#">
+            <Opt className="register_opt" href="#managers">
               Я менеджер
             </Opt>
           </OptBox>

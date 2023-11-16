@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cpa_platform/static/css/main.4eb7f14b.css",
+    "main.js": "/cpa_platform/static/js/main.aa4c2659.js",
+    "static/media/bg_img.jpg": "/cpa_platform/static/media/bg_img.ee37912442059dcddd4b.jpg",
+    "index.html": "/cpa_platform/index.html",
+    "main.4eb7f14b.css.map": "/cpa_platform/static/css/main.4eb7f14b.css.map",
+    "main.aa4c2659.js.map": "/cpa_platform/static/js/main.aa4c2659.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eb7f14b.css",
+    "static/js/main.aa4c2659.js"
+  ]
+}
